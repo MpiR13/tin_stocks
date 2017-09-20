@@ -21,6 +21,8 @@ init_stock_lookup = function() {
   });
 };
 
-$(document).on('turbolinks:load', function() {
+$(document).ready(function() {
   init_stock_lookup();
 });
+
+// $(document).on('turbolinks:load', function() { may this later
