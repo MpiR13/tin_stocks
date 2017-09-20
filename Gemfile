@@ -37,6 +37,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem "twitter-bootstrap-rails"
 gem 'devise-bootstrap-views'
+gem "stock_quote"
+gem 'jquery-rails'
+gem "font-awesome-rails"
 
 group :development, :test do
   gem 'sqlite3'
